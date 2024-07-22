@@ -1,0 +1,49 @@
+/* src/App.css */
+.App {
+  text-align: center;
+}
+
+.button-container {
+  margin: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  margin: 3px;
+  border-radius: 5px;
+  font-weight: bold;
+  background-color: aquamarine;
+}
+
+.btn:hover {
+  background-color: rgb(18, 212, 148);
+}
+
+.image-grid {
+  display: grid;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-1 {
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.grid-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-4 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-8 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.image-grid img {
+  max-width: 100%;
+  height: auto;
+}
